@@ -18,7 +18,7 @@ Objects can be drawn in the world through MyWindow::drawWorld (i.e. COMs, Coordi
 Make sure you set your URDF source path in Main::createRobot before you make the project. Follow the instructions:
 
     git clone https://github.com/areebm/dart-urdf-checker.git
-    cd DART-urdf-checker
+    cd dart-urdf-checker
     mkdir build
     cd build
     cmake ..
