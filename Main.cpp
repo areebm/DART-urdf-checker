@@ -13,7 +13,7 @@ dart::dynamics::SkeletonPtr createRobot() {
   dart::dynamics::SkeletonPtr robotPtr;
 
   // Load the Skeleton from a file
-  robotPtr = loader.parseSkeleton("/home/areeb/dart/09-URDF/KrangZed/KrangZed.urdf");
+  robotPtr = loader.parseSkeleton("/home/areeb/dart/myfile.urdf");
   robotPtr->setName("robot");
 
   // Print list of Body Nodes
