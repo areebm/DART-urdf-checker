@@ -11,11 +11,11 @@ MyWindow::MyWindow(const dart::simulation::WorldPtr& world) {
       // Get vehicle skeleton from world to pass to Controller
       mRobot = world->getSkeleton("robot");
 
-      int dof = mRobot->getNumDofs();
+      int numJoints = mRobot->getNumJoints();
 
       // Print list of Joints
       cout << "JOINTS:" << endl;
-      for(int i = 0; i < dof-5; i++){
+      for(int i = 0; i < numJoints; i++){
         cout << i << ": " << mRobot->getJoint(i)->getName() << endl;
       }
 }

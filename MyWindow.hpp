@@ -7,7 +7,7 @@
 #include <iostream>
 #include <fstream>
 
-class MyWindow : public dart::gui::SimWindow {
+class MyWindow : public dart::gui::glut::SimWindow {
 
   public:
     MyWindow(const dart::simulation::WorldPtr& world);
